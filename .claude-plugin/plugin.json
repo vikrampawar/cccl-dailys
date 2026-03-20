@@ -1,0 +1,12 @@
+{
+  "name": "cccl-dailys",
+  "description": "Claude Code Central London community plugin — tips, tricks, and resources for Claude Code users",
+  "version": "1.0.0",
+  "author": {
+    "name": "CCCL (Claude Code Central London)",
+    "url": "https://cccl.ai"
+  },
+  "homepage": "https://github.com/vikrampawar/cccl-dailys",
+  "repository": "https://github.com/vikrampawar/cccl-dailys",
+  "license": "MIT"
+}
