@@ -12,26 +12,33 @@ Community-built skills for Claude Code users — tips research, resource compila
 
 ## Installation
 
-### Install from GitHub
+### Option 1: Install via marketplace (recommended)
+
+```bash
+# Add the CCCL marketplace (one-time)
+/plugin marketplace add vikrampawar/cccl-dailys
+
+# Install the plugin
+/plugin install cccl-dailys@cccl-dailys
+```
+
+### Option 2: Install directly from GitHub
 
 ```bash
 claude plugin install https://github.com/vikrampawar/cccl-dailys
 ```
 
-### Install from local directory (for development)
+### Option 3: Local development
 
 ```bash
-# Clone the repo
+# Clone and run with --plugin-dir
 git clone https://github.com/vikrampawar/cccl-dailys.git
-
-# Install from local path
-claude plugin install ./cccl-dailys
+claude --plugin-dir ./cccl-dailys
 ```
 
 ### Verify installation
 
 ```bash
-# List installed plugins
 claude plugin list
 ```
 
@@ -82,7 +89,8 @@ Claude launched 4 parallel research agents to search for tips from Anthropic eng
 ```
 cccl-dailys/
 ├── .claude-plugin/
-│   └── plugin.json        # Plugin manifest
+│   ├── plugin.json        # Plugin manifest
+│   └── marketplace.json   # Marketplace catalog
 ├── skills/
 │   └── cc-tips/
 │       └── SKILL.md       # Tips research skill

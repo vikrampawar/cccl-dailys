@@ -1,0 +1,30 @@
+{
+  "name": "cccl-dailys",
+  "owner": {
+    "name": "CCCL (Claude Code Central London)",
+    "email": "hello@rumq.net"
+  },
+  "metadata": {
+    "description": "Community-built Claude Code skills from Claude Code Central London",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cccl-dailys",
+      "source": {
+        "source": "github",
+        "repo": "vikrampawar/cccl-dailys"
+      },
+      "description": "Claude Code tips, tricks, and resources — research and compile from known experts",
+      "version": "1.0.0",
+      "author": {
+        "name": "CCCL (Claude Code Central London)"
+      },
+      "homepage": "https://cccl.ai",
+      "repository": "https://github.com/vikrampawar/cccl-dailys",
+      "license": "MIT",
+      "keywords": ["claude-code", "tips", "tricks", "research"],
+      "category": "productivity"
+    }
+  ]
+}
